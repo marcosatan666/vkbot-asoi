@@ -4,15 +4,12 @@
   "description": "It's my project for vk bot",
   "main": "bot.js",
   "scripts": {
-    "start": "nodemon bot.js"
+    "start": "node bot.js"
   },
   "author": "Sofia",
   "license": "ISC",
   "dependencies": {
     "mongoose": "^5.11.0",
     "node-vk-bot-api": "^3.3.7"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
   }
 }
